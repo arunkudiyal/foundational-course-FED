@@ -1,0 +1,30 @@
+/* RESET STYLING */
+* {
+   background-color: lightgrey; 
+}
+
+.anchor {
+    /* display: block; */
+    padding-right: 30px;
+}
+
+.container {
+    /* border: size style color; */
+    /* padding: TOP RIGHT BOTTOM LEFT */
+    padding: 5px 10px 5px 10px;
+    width: 80%;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+/* .inner-container {
+    border: 1px solid red;
+} */
+
+.even {
+    color: green;
+}
+
+.odd {
+    color: indigo;
+}
