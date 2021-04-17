@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Main Heading -->
+        <h1 class="page-header">Welcome to Boostrap! <small>By Arun Kudiyal</small> </h1>
+
+        <!-- Paragraphs -->
+
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, fugit consequuntur ea veniam ratione nisi.</p>
+
+        <p>Lorem ipsum dolor sit, <mark>amet consectetur adipisicing elit</mark>. Debitis voluptatem quis expedita accusantium magni neque nisi facere, natus quod officiis obcaecati libero quaerat cupiditate fugit, commodi corrupti dicta consectetur ad! <del>amet consectetur adipisicing elit</del> sit amet consectetur adipisicing elit. Exercitationem deserunt excepturi vitae omnis tempore nemo eius quam eum! Cupiditate, eius?</p>
+        <hr/>
+
+        <!-- ALIGNMENTS AND TRANSFORMATIONS -->
+        <h3>Alignment & Transformation</h3>
+        <p class="text-left">Left Aligned</p>
+        <p class="text-center">Centre Aligned</p>
+        <p class="text-right">Right Aligned</p>
+        <p class="text-justify">Justified Text</p>
+        <p class="text-nowrap">No wrap Text</p>
+        <hr>
+
+        <!-- BLOCKQUOTE -->
+        <blockquote>
+            <h3>Quotes :</h3>
+            <p>An eye for an eye makes the whole world blind!</p>
+            <footer>Quote by: <i>Mahatma Gandhi</i> </footer>
+        </blockquote>
+        <hr>
+
+        <!-- LIST -->
+        <h3>Lists :</h3>
+        <ul class="list-unstyled">
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+            <li>List Item 5</li>
+            <li>List Item 6</li>
+        </ul>
+
+        <hr>
+
+        <!-- Nav Bar -->
+        <ul class="list-inline">
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+            <li>List Item 5</li>
+            <li>List Item 6</li>
+        </ul>
+        <hr>
+
+        <!-- CONTEXTUAL CLASSES -->
+        <h3>Contextual Classes :</h3>
+        <p class="text-primary">Paragrah One</p>
+        <p class="text-success">Paragrah Two</p>
+        <p class="text-info">Paragrah Three</p>
+        <p class="text-warning">Paragrah Four</p>
+        <p class="text-danger">Paragrah Five</p>
+        <p class="text-muted">Paragrah Six</p>
+        <hr>
+
+        <h3>Contextual Background</h3>
+        <p class="bg-primary">Paragrah One</p>
+        <p class="bg-success">Paragrah Two</p>
+        <p class="bg-info">Paragrah Three</p>
+        <p class="bg-warning">Paragrah Four</p>
+        <p class="bg-danger">Paragrah Five</p>
+
+    </div>
+
+    <hr>
+    
+    <div class="container">
+
+        <!-- BUTTONS -->
+
+        <h3>Buttons :</h3>
+
+        <!-- Default -->
+        <button class="btn btn-default">Button</button>
+        <a class="btn btn-default" href="#">Link</a>
+        <input class="btn btn-default" type="submit" value="Submit">
+        <br> <br>
+
+        <!-- Primary -->
+        <button class="btn btn-primary">Button</button>
+        <button class="btn btn-success">Button</button>
+        <button class="btn btn-info">Button</button>
+        <button class="btn btn-warning">Button</button>
+        <button class="btn btn-danger">Button</button>
+        <button class="btn btn-link">Button</button>
+        <br> <br>
+
+        <!-- BUTTON SIZES -->
+        <button class="btn btn-success btn-lg">Button</button>
+        <button class="btn btn-success btn-sm">Button</button>
+        <button class="btn btn-success btn-xs">Button</button>
+        <br> <br>
+
+        <button class="btn btn-success btn-lg disabled">Button</button>
+        <br> <br>
+
+    </div>
+
+    <hr>
+
+    <div class="container">
+        
+        <!-- FORMS -->
+
+        <!-- Block Forms for SignUp -->
+        <h2>Sign-up for Free!</h2> <br>
+        <form action="#">
+
+            <div class="form-group">
+                <label>First Name: </label>
+                <input class="form-control" type="text" placeholder="First Name">
+            </div>
+
+            <div class="form-group">
+                <label>Last Name: </label>
+                <input class="form-control" type="text" placeholder="Last Name">
+            </div>
+
+            <div class="form-group">
+                <label>Email: </label>
+                <input class="form-control" type="email" placeholder="E-Mail">
+            </div>
+
+            <div class="form-group">
+                <label>Password: </label>
+                <input class="form-control" type="password" placeholder="Password">
+            </div>
+
+            <div class="form-group">
+                <label>Gender: </label>
+                <select class="form-control">
+                    <option > Male </option>
+                    <option > Female </option>
+                    <option > Others </option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Message: </label>
+                <textarea class="form-control" placeholder="Enter your valueable message..."></textarea>
+            </div>
+
+            <div class="form-group">
+                <input type="checkbox"> I agree with the agreements
+            </div>
+
+            <button class="btn btn-success btn-lg">Sign Up</button>            
+
+        </form>
+
+        <hr>
+
+        <!-- Inline Forms for Sign In -->
+
+        <h2>Sign In :</h2>
+        <form action="#" class="form-inline">
+            <div class="form-group">
+                <label>Email: </label>
+                <input class="form-control" type="email" placeholder="E-Mail">
+            </div>  
+
+            <div class="form-group">
+                <label>Password: </label>
+                <input class="form-control" type="password" placeholder="Password">
+            </div>
+
+            <div class="form-group">
+                <input type="checkbox"> Remeber Me
+            </div>
+
+            <button class="btn btn-success btn-lg">Sign In</button>
+        </form>
+    </div>
+
+    <hr>
+
+    <div class="container">
+
+        <!-- TABLES -->
+        <table class="table table-striped table-bordered table-hover table-condensed">
+            <thead><h2 style="text-align: center;">List of Customers</h2></thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+            </tr>
+
+            <tr>
+                <td>Arun</td>
+                <td>Kudiyal</td>
+                <td>25</td>
+            </tr>
+
+            <tr>
+                <td>User</td>
+                <td>One</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>User</td>
+                <td>Two</td>
+                <td>29</td>
+            </tr>
+            <tr>
+                <td>User</td>
+                <td>Three</td>
+                <td>31</td>
+            </tr>
+        </table>
+
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <!-- PROGESS BAR -->
+        <h3>Your progress is: </h3>
+        <div class="progress">
+            <div class="progress-bar progress-bar-success progress-bar-striped active" style="width: 50%;"> 50%</div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+
+        <h2>Grids: </h2>
+
+        <h3>8 x 4 Grid :</h3>
+        <div class="row">
+            <div class="col-md-8">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis eos laudantium ducimus, quidem minus commodi perferendis sit necessitatibus quos illum adipisci aliquam, deserunt iure iusto. Nemo iusto in, dignissimos sunt aliquam eos laborum architecto officia exercitationem pariatur reiciendis expedita repellat quos, maxime dicta tempora illum!</p>
+            </div>
+            <div class="col-md-4">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt earum rerum fuga repellendus, sit nisi quos autem optio illum blanditiis quas qui esse possimus assumenda.</p>
+            </div>
+        </div>
+
+        <h2>3 x 3 x 3 x 3 Grid :</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, animi aperiam? Ab, cumque officia voluptas perspiciatis ipsa aliquam modi a.</p>
+            </div>
+            <div class="col-md-3">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, animi aperiam? Ab, cumque officia voluptas perspiciatis ipsa aliquam modi a.</p>
+            </div>
+            <div class="col-md-3">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, animi aperiam? Ab, cumque officia voluptas perspiciatis ipsa aliquam modi a.</p>
+            </div>
+            <div class="col-md-3">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, animi aperiam? Ab, cumque officia voluptas perspiciatis ipsa aliquam modi a.</p>
+            </div>
+        </div>
+
+        <h2>6 x 6 Grid :</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eveniet nulla quae minima quos incidunt libero culpa alias dicta beatae reiciendis ducimus modi accusantium quam, accusamus dolorem natus nam veniam quidem officiis, voluptate distinctio voluptatum tempora ea! Laboriosam debitis aut, ipsam quos, excepturi deserunt sit inventore, recusandae non quisquam iusto est alias quasi. Exercitationem repellendus fugit consequatur dolorum delectus dolorem.</p>
+            </div>
+            <div class="col-md-6">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eveniet nulla quae minima quos incidunt libero culpa alias dicta beatae reiciendis ducimus modi accusantium quam, accusamus dolorem natus nam veniam quidem officiis, voluptate distinctio voluptatum tempora ea! Laboriosam debitis aut, ipsam quos, excepturi deserunt sit inventore, recusandae non quisquam iusto est alias quasi. Exercitationem repellendus fugit consequatur dolorum delectus dolorem.</p>
+            </div>
+        </div>
+    </div>
+
+    <div style="height: 500px;"></div>
+
+</body>
+</html>
